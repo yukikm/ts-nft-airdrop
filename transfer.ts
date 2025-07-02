@@ -14,7 +14,7 @@ import dotenv from "dotenv";
 const from = Keypair.fromSecretKey(new Uint8Array(wallet));
 
 // Define our Turbin3 public key
-const to = new PublicKey(process.env.TURBIN3_PUBLIC_KEY || "");
+const to = new PublicKey("nHSjCbSd3XD3UwGy5uAAUqEfDf4kBDYaJZ4eF82nCDZ");
 
 // Create a Solana devnet connection
 const connection = new Connection("https://api.devnet.solana.com");
